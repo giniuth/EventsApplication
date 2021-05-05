@@ -1,0 +1,57 @@
+﻿@model IEnumerable<EventsApplication.Models.EventType>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+            @Html.DisplayNameFor(model => model.PictureURL)
+        </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OccasionName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Budget)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CakeSize)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="@item.PictureURL" style="height:128px;" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OccasionName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Budget)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CakeSize)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Update", new { id = item.ID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })|
+                    @Html.ActionLink("View DecorDetails", "ViewDecorDetails", new { id = item.ID })|
+                    @Html.ActionLink("Add DecorDetail", "CreateDecorDetail", new { EventTypeid = item.ID })|
+                 
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

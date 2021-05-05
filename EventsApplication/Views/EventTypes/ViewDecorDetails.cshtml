@@ -1,0 +1,55 @@
+﻿@model IEnumerable<EventsApplication.Models.DecorDetail>
+
+@{
+    ViewData["Title"] = "DecorDetails";
+}
+
+<h1>@ViewBag.EventTypeOccasionName's DecorDetails</h1>
+
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GuestCapacity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Alcohol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Catering)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cuisine)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestCapacity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Alcohol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Catering)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cuisine)
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

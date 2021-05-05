@@ -1,0 +1,62 @@
+﻿@model EventsApplication.Models.DecorDetail
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update Details @*for @Model.OccasionName*@</h1>
+@*<p>Created on @Model.CreatedAt.ToShortDateString()</p>*@
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="GuestCapacity" class="control-label"></label>
+                <input asp-for="GuestCapacity" class="form-control" />
+                <span asp-validation-for="GuestCapacity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Alcohol" class="control-label"></label>
+                <select asp-for="Alcohol" class="form-control">
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <span asp-validation-for="Alcohol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Catering" class="control-label"></label>
+                <select asp-for="Catering" class="form-control">
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <span asp-validation-for="Catering" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cuisine" class="control-label"></label>
+                <select asp-for="Cuisine" class="form-control">
+                    <option value="1">Italian</option>
+                    <option value="2">Japanese</option>
+                    <option value="2">Chinese</option>
+                    <option value="2">Indian</option>
+                    <option value="2">American</option>
+                </select>
+                <span asp-validation-for="Cuisine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
