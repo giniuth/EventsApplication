@@ -15,8 +15,8 @@ namespace EventsApplication.Models
         public string Alcohol { get; set; }
         public string Catering { get; set; }
         public string Cuisine { get; set; }
-
-        public virtual EventType EventType { get; set; }
+        public int EventTypeID { get; set; }
+        public virtual EventType EventType { get; set; } //fk
 
     }
 }
