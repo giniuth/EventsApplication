@@ -46,7 +46,7 @@ stages:
         - task: AzureRmWebAppDeployment@4
           inputs:
             ConnectionType: 'AzureRM'
-            azureSubscription: 'giniproject'
+            azureSubscription: 'Avanade Delivery(3eba6e29-3983-495b-a539-c3c4b43fb90c)'
             appType: 'webAppLinux'
             WebAppName: 'giniappservice'
             packageForLinux: '$(System.DefaultWorkingDirectory)/'
