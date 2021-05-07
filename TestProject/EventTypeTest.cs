@@ -61,11 +61,32 @@ Budget = 300, CakeSize = Size.Large, PictureURL ="https://www.megaretailer.co.uk
         {
             //Arrange
             mockRepo.Setup(repo => repo.EventTypes.FindByCondition(e => e.ID == It.IsAny<int>())).Returns(GetEventTypes());
-            //Act
+            //Act                                                                       //when i put add eventtype doesnt work. perhaps binding?
             var controllerActionResult = new EventTypesController(mockRepo.Object).Create(AddEventType);
-            //Assert
+            //Assert                                                                           
             Assert.NotNull(controllerActionResult);
             Assert.IsType<RedirectToActionResult>(controllerActionResult);
         }
+
+        [Fact]
+        public void DeleteEventType_Test()
+        {
+            //Arrange
+            mockRepo.Setup(repo => repo.EventTypes.FindByCondition(e => e.ID == It.IsAny<int>())).Returns(GetEventTypes());
+            mockRepo.Setup(repo => repo.EventTypes.Delete(GetEventType));
+            //Act
+            var controllerActionResult = EventTypesController.Delete(It.IsAny<int>());
+            //Assert
+            Assert.NotNull(controllerActionResult);
+        }
+        //private IEnumerable<Registration> GetRegistrations()
+        //{
+        //    return new List<Registration>() {
+        //        new Registration { Id = 1, Course = GetCourses().ToList()[0] },
+        //        new Registration { Id = 2, Course = GetCourses().ToList()[1] },
+        //    };
+        //}
+
+
     }
 }

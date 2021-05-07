@@ -143,7 +143,7 @@ namespace EventsApplication.Controllers
             //var EventTypeToDelete = dbContext.EventTypes.FirstOrDefault(e => e.ID == id);
             //var DecorDetailToDelete = dbContext.DecorDetails.Where(e => e.EventType.ID == id);
             var EventTypeToDelete = repository.EventTypes.FindByCondition(e => e.ID == id).FirstOrDefault();
-            var DecorDetailToDelete = repository.DecorDetails.FindByCondition(e => e.EventType.ID == id);
+            var DecorDetailToDelete = repository.DecorDetails.FindByCondition(e => e.ID == id);
             foreach (var e1 in DecorDetailToDelete)
             {
                 //dbContext.DecorDetails.Remove(e1);
