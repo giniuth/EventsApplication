@@ -16,8 +16,7 @@ stages:
     #build jobs
     jobs: 
       - job: build
-        pool:
-          vmImage: 'ubuntu-latest'
+        
 
         variables:
           buildConfiguration: 'Release'
