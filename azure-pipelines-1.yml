@@ -48,5 +48,5 @@ stages:
             ConnectionType: 'AzureRM'
             azureSubscription: 'Avanade Delivery(3eba6e29-3983-495b-a539-c3c4b43fb90c)'
             appType: 'webAppLinux'
-            WebAppName: 'giniappservice'
+            WebAppName: 'giniwebapp'
             packageForLinux: '$(System.DefaultWorkingDirectory)/'
