@@ -9,46 +9,45 @@ trigger:
 
 pool:
   name: 'gini-pool'
+stages:
+  - stage: build
+    displayName: 'master-branch-build'
 
+    #build jobs
+    jobs: 
+      - job: build
+        pool:
+          vmImage: 'ubuntu-latest'
 
-variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
+        variables:
+          buildConfiguration: 'Release'
 
-steps:
-- task: NuGetToolInstaller@1
+        steps:
+        - task: DotNetCoreCLI@2
+          inputs:
+            command: 'restore'
+            projects: '**/*.csproj'
+            feedsToUse: 'select'
+        - task: DotNetCoreCLI@2
+          inputs:
+            command: 'build'
+            projects: '**/*.csproj'
+            arguments: '--configuration $(BuildConfiguration)'
+        - task: DotNetCoreCLI@2
+          inputs:
+            command: 'publish'
+            publishWebProjects: true
+            arguments: '--configuration $(BuildConfiguration) --output $(build.artifactstagingdirectory)'
+        - task: PublishBuildArtifacts@1
+          inputs:
+            PathtoPublish: '$(build.artifactstagingdirectory)'
+            ArtifactName: 'drop'
+            publishLocation: 'Container'
 
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: '$(solution)'
-
-- task: VSBuild@1
-  inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: 'junit/test-results.xml'
-    failTaskOnFailedTests: true
-- task: PublishCodeCoverageResults@1
-  inputs:
-    codeCoverageTool: 'Cobertura'
-    summaryFileLocation: 'coverage.xml'
-    reportDirectory: 'htmlcov'
-    failIfCoverageEmpty: true
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'giniproject'
-    appType: 'webAppLinux'
-    WebAppName: 'giniappservice'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/'
+        - task: AzureRmWebAppDeployment@4
+          inputs:
+            ConnectionType: 'AzureRM'
+            azureSubscription: 'giniproject'
+            appType: 'webAppLinux'
+            WebAppName: 'giniappservice'
+            packageForLinux: '$(System.DefaultWorkingDirectory)/'
