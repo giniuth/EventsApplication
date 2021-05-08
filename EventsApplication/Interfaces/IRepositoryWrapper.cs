@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace EventsApplication.Interfaces
 {
-  public  interface IRepositoryWrapper
+  public interface IRepositoryWrapper
     {
         IEventTypeRepository EventTypes { get; }
-        IDecorDetailRepository DecorDetails { get; }
+        IDecorDetailRepository DecorDetails { get;}
         void Save();
     }
 }
