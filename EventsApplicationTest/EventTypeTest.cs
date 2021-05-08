@@ -91,6 +91,19 @@ Description= "Gatsby themed", Alcohol = "Yes", Cuisine="Indian", Catering="No" }
             return GetDecorDetails().ToList()[0];
         }
 
+        [Fact]
+        public void AddEventType_Test()
+        {
+            //Arrange
+            mockRepo.Setup(repo => repo.EventTypes.FindByCondition(e => e.ID == It.IsAny<int>())).Returns(GetEventTypes());
+            //Act
+            var controllerActionResult = EventTypesController.Create(addEventType);
+            //Assert
+            Assert.NotNull(controllerActionResult);
+            //Assert.IsType<ActionResult<WorkoutViewModel>>(controllerActionResult);
+        }
+
+    
 
         [Fact]
         public void UpdateEventTypes_Test()
@@ -105,17 +118,6 @@ Description= "Gatsby themed", Alcohol = "Yes", Cuisine="Indian", Catering="No" }
             //Assert
             Assert.NotNull(controllerActionResult);
         }
-        //[Fact]
-        //public void DeleteEventTypes_Test()
-        //{
-        //    //Arrange
-        //    mockRepo.Setup(repo => repo.EventTypes.FindByCondition(e => e.ID == It.IsAny<int>())).Returns(GetEventTypes());
-        //    mockRepo.Setup(repo => repo.EventTypes.Delete(GetEventType()));
-        //    //Act
-        //    var controllerActionResult = new EventTypesController(mockRepo.Object).Delete(It.IsAny<int>());
-        //    //Assert
-        //    Assert.NotNull(controllerActionResult);
-        //}
 
         [Fact]
         public void UpdateDecorDetails_Test()
