@@ -63,6 +63,7 @@ Using a Trello board helped me visualise the process clearly and keep track of w
 ![Screenshot (134)](https://user-images.githubusercontent.com/82108067/117584411-b2a3d900-b104-11eb-836b-1b7190199b6d.png)
 
 
+![Screenshot (136)](https://user-images.githubusercontent.com/82108067/117584485-3362d500-b105-11eb-8653-6ebf6328977a.png)
 
 **Future improvements:**
 ---
