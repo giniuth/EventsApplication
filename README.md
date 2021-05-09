@@ -44,7 +44,10 @@ Using a Trello board helped me visualise the process clearly and keep track of w
 
 ![Screenshot (121)](https://user-images.githubusercontent.com/82108067/117577185-a3ab2f80-b0e0-11eb-947f-f10e01d1cd72.png)
 
-**Entity Relationship Diagram (ERD):** shows the relationship of entities stored in a database. The cardinality type between the two tables would be one to one. There is a *one to one relationship* between the event type and décor details since only one occasion per order can have a service. Additionally, the specifications such as theme/cake design and cuisine will be tailored for that one specific event. We would not be able to provide for a birthday and a wedding unless the two occasions are processed separately. 
+**Entity Relationship Diagram (ERD):**
+---
+
+*Entity Relationship Diagram (ERD):* shows the relationship of entities stored in a database. The cardinality type between the two tables would be one to one. There is a *one to one relationship* between the event type and décor details since only one occasion per order can have a service. Additionally, the specifications such as theme/cake design and cuisine will be tailored for that one specific event. We would not be able to provide for a birthday and a wedding unless the two occasions are processed separately. 
 
 [Used Lucid to make ERD Diagrams](https://www.lucidchart.com/pages/)
 
@@ -75,6 +78,7 @@ Reasonings:
 
 ![Screenshot (134)](https://user-images.githubusercontent.com/82108067/117584411-b2a3d900-b104-11eb-836b-1b7190199b6d.png)
 
+![Screenshot (98)](https://user-images.githubusercontent.com/82108067/117584529-6ad18180-b105-11eb-878e-39987f8a7eb2.png)
 
 ![Screenshot (136)](https://user-images.githubusercontent.com/82108067/117584485-3362d500-b105-11eb-8653-6ebf6328977a.png)
 
@@ -83,7 +87,6 @@ Reasonings:
 I deployed my Web Application through Azure manually (using publish profile through azure app service) after facing many difficulties with the CI/CD approach.
 
 ![Screenshot (102)](https://user-images.githubusercontent.com/82108067/117584519-64430a00-b105-11eb-9443-883756ccfee4.png)
-![Screenshot (98)](https://user-images.githubusercontent.com/82108067/117584529-6ad18180-b105-11eb-878e-39987f8a7eb2.png)
 
 ![Screenshot (130)](https://user-images.githubusercontent.com/82108067/117584408-afa8e880-b104-11eb-954e-1d597f941bf0.png)
 ![Screenshot (133)](https://user-images.githubusercontent.com/82108067/117584410-b172ac00-b104-11eb-89d1-e9c4ff935dba.png)
