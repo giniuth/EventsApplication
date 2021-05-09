@@ -24,16 +24,10 @@ Using a Trello board helped me visualise the process clearly and keep track of w
 
 Entity Relationship Diagram (ERD): shows the relationship of entities stored in a database. The cardinality type between the two tables would be one to one. There is a one to one relationship between the event type and décor details since only one occasion per order can have a service. Additionally, the specifications such as theme/cake design and cuisine will be tailored for that one specific event. We would not be able to provide for a birthday and a wedding unless the two occasions are processed separately. 
 
+![Screenshot (119)](https://user-images.githubusercontent.com/82108067/117576400-c1c36080-b0dd-11eb-9b2a-3a9a89dabf06.png)
 
 
 
 
 
 
-
-#Risk Assessment Matrix
-
-
-| Risks | Evaluation | Likelihood | Impact level | Control Measure | Responsibility | Revisit |
-| --- | --- | --- | --- | --- |
-| Database Crashing | more content | 4 | 8 | whiwqh | stuffofr control measre | GU | 1/05/21 – Added a description section onto the website. Customers can use an endless number of words to describe their event in detail and once their order has been processed the events team will relay information asked from the clients.|
