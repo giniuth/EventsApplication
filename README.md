@@ -51,9 +51,16 @@ Using a Trello board helped me visualise the process clearly and keep track of w
 
 ![Screenshot (123)](https://user-images.githubusercontent.com/82108067/117583621-124bb580-b100-11eb-9bf3-0dcc5b6bfabc.png)
 
+**Risk Assessment**
+---
+
+![Screenshot (126)](https://user-images.githubusercontent.com/82108067/117584241-b551fe80-b103-11eb-888d-70a4b6040efe.png)
+![Screenshot (128)](https://user-images.githubusercontent.com/82108067/117584242-b6832b80-b103-11eb-9356-95d29a63d168.png)
 
 
-Future improvements:
+**Future improvements:**
+---
+
 
 * I would like to add the '£' sign when adding the budget, even though this company is UK based - it would make the website more credible
 * Users might want to add more than one inspo picture, therefore a strategy for this could be implemented
