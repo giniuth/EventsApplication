@@ -14,6 +14,20 @@ The application I have been creating performs the actions of the requirements, C
 
 ![Screenshot (117)](https://user-images.githubusercontent.com/82108067/117571148-19090700-b0c5-11eb-9a16-3e0663667aa7.png)
 
+**Summary of app:**
+<!-- Horizontal Rule -->
+---
+
+Create an EvenType (Occasion Name) (E.g. Birthday, Wedding, Anniversary, Gender Reveal)
+Users will then set a budget (compulsory)
+Users can attach an inspo picture regarding the theme/design they want
+Users will then tell us what size cake they’d like
+
+**Additional information:**
+---
+
+Users are then required to give us more details including the guest capacity, whether they’d like Alcohol, Catering and if so what Cuisine.
+Users at this point can add a description or give us further details that will help the event company when it comes to planning their specific event.
 
 
 
