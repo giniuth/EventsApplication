@@ -19,8 +19,10 @@ Here are a few images of the website:
 [This is the link to my Trello Board](https://trello.com/b/ioxDkTOo/qaproject)
 
 Using a Trello board helped me visualise the process clearly and keep track of workflow against the time limit.The benefits of having a visual grid helped me see how much progress I was making. I also kept a column for hurdles/errors I overcame since I do believe its important to note down this information.
+<!-- Blockquote -->
+> Trello board two weeks into the project
 
-
+![Screenshot (121)](https://user-images.githubusercontent.com/82108067/117577185-a3ab2f80-b0e0-11eb-947f-f10e01d1cd72.png)
 
 Entity Relationship Diagram (ERD): shows the relationship of entities stored in a database. The cardinality type between the two tables would be one to one. There is a one to one relationship between the event type and décor details since only one occasion per order can have a service. Additionally, the specifications such as theme/cake design and cuisine will be tailored for that one specific event. We would not be able to provide for a birthday and a wedding unless the two occasions are processed separately. 
 
