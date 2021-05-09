@@ -78,6 +78,9 @@ Reasonings:
 
 ![Screenshot (136)](https://user-images.githubusercontent.com/82108067/117584485-3362d500-b105-11eb-8653-6ebf6328977a.png)
 
+**Deployment**
+---
+I deployed my Web Application through Azure manually (using publish profile through azure app service) after facing many difficulties with the CI/CD approach.
 
 ![Screenshot (102)](https://user-images.githubusercontent.com/82108067/117584519-64430a00-b105-11eb-9443-883756ccfee4.png)
 ![Screenshot (98)](https://user-images.githubusercontent.com/82108067/117584529-6ad18180-b105-11eb-878e-39987f8a7eb2.png)
