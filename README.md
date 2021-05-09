@@ -49,7 +49,13 @@ Using a Trello board helped me visualise the process clearly and keep track of w
 ![Screenshot (119)](https://user-images.githubusercontent.com/82108067/117576400-c1c36080-b0dd-11eb-9b2a-3a9a89dabf06.png)
 
 
+Future improvements:
 
+* I would like to add the '£' sign when adding the budget, even though this company is UK based - it would make the website more credible
+* Users might want to add more than one inspo picture, therefore a strategy for this could be implemented
+* Users can currently add more than one decor detail therefore I would need to change the code to make it that only one event has one corresponding decordetail
+* For the future, contact details and a log in system would be necessary
+* There could also be more pictures uploaded from previous events that would help attract more customers and it would be a place for us to showcase our previous work
 
 
 
