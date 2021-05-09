@@ -34,6 +34,6 @@ Entity Relationship Diagram (ERD): shows the relationship of entities stored in 
 #Risk Assessment Matrix
 
 
-| Risks | Likelihood | Severity | Control Measure | Revisit |
+| Risks | Evaluation | Likelihood | Impact level | Control Measure | Responsibility | Revisit |
 | --- | --- | --- | --- | --- |
-| Database Crashing | more content | text | dgjdha | whiwqh |
+| Database Crashing | more content | 4 | 8 | whiwqh | stuffofr control measre | GU | 1/05/21 – Added a description section onto the website. Customers can use an endless number of words to describe their event in detail and once their order has been processed the events team will relay information asked from the clients.|
