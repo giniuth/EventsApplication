@@ -3,6 +3,14 @@
 ## Events Application
 The application I have been creating performs the actions of the requirements, Create, Read, Update and Delete (CRUD). As a small introduction to my application, users will be able to first specify the type of event they would like to host alongside their budget and additionally display an image so the decoration company can help tailor to their requests. Users will then be required to fill in additonal information including the option to have catering porvided and a space for them to give us a detailed description into the services they require.
 
+Here are a few images of the website:
+
+![Screenshot (108)](https://user-images.githubusercontent.com/82108067/117570831-e14d8f80-b0c3-11eb-8aa4-f1ed9167e109.png)
+
+
+![Screenshot (115)](https://user-images.githubusercontent.com/82108067/117570801-caa73880-b0c3-11eb-996a-a91992196fc0.png)
+
+
 **Event Type**
 
 - ID
