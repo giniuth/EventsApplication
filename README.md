@@ -1,4 +1,4 @@
-# EventsApplication
+# **EventsApplication**
 # CRUD PROJECT
 ## Events Application
 The application I have been creating performs the actions of the requirements, Create, Read, Update and Delete (CRUD). As a small introduction to my application, users will be able to first specify the type of event they would like to host alongside their budget and additionally display an image so the decoration company can help tailor to their requests. Users will then be required to fill in additonal information including the option to have catering provided and a space for them to give us a detailed description into the services they require.
@@ -19,13 +19,9 @@ Here are a few images of the website:
 
 
 
-[This is the link to my Trello Board](https://www.bing.com/search?q=google&cvid=ccd89689877b4961851dde855cb873c2&aqs=edge.0.69i59j69i65j69i57j69i60j0j69i60j0.484j0j1&FORM=ANNTA9&PC=U531)
+[This is the link to my Trello Board](https://trello.com/b/ioxDkTOo/qaproject)
 
-! [alt text] (testingfirst.jpg)
-
-
-
-Using a Trello board helped me visualise the process clearly and keep track of workflow against the time limit.
+Using a Trello board helped me visualise the process clearly and keep track of workflow against the time limit.The benefits of having a visual grid helped me see how much progress I was making. I also kept a column for hurdles/errors I overcame since I do believe its important to note down this information.
 
 
 
