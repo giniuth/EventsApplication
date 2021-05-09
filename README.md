@@ -69,4 +69,7 @@ Using a Trello board helped me visualise the process clearly and keep track of w
 * There could also be more pictures uploaded from previous events that would help attract more customers and it would be a place for us to showcase our previous work
 
 
+Author
+---
 
+Gini Uthayakumar
