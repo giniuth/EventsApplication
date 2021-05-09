@@ -46,7 +46,8 @@ Using a Trello board helped me visualise the process clearly and keep track of w
 
 **Entity Relationship Diagram (ERD):** shows the relationship of entities stored in a database. The cardinality type between the two tables would be one to one. There is a *one to one relationship* between the event type and décor details since only one occasion per order can have a service. Additionally, the specifications such as theme/cake design and cuisine will be tailored for that one specific event. We would not be able to provide for a birthday and a wedding unless the two occasions are processed separately. 
 
-![Screenshot (119)](https://user-images.githubusercontent.com/82108067/117576400-c1c36080-b0dd-11eb-9b2a-3a9a89dabf06.png)
+![Screenshot (123)](https://user-images.githubusercontent.com/82108067/117583621-124bb580-b100-11eb-9bf3-0dcc5b6bfabc.png)
+
 
 
 Future improvements:
