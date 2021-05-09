@@ -15,7 +15,6 @@ The application I have been creating performs the actions of the requirements, C
 ![Screenshot (117)](https://user-images.githubusercontent.com/82108067/117571148-19090700-b0c5-11eb-9a16-3e0663667aa7.png)
 
 **Summary of app:**
-<!-- Horizontal Rule -->
 ---
 
 <!-- UL -->
