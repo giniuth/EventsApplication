@@ -57,15 +57,34 @@ Using a Trello board helped me visualise the process clearly and keep track of w
 ![Screenshot (126)](https://user-images.githubusercontent.com/82108067/117584241-b551fe80-b103-11eb-888d-70a4b6040efe.png)
 ![Screenshot (128)](https://user-images.githubusercontent.com/82108067/117584242-b6832b80-b103-11eb-9356-95d29a63d168.png)
 
+**Testing**
+---
+
+*Mock testing (MOQ Framework)*
+ 
+Moq is a mocking framework for C# .NET. it is used in unit testing to isolate a class under test from its dependencies and ensure that the proper methods on the dependent objects are being called. Mock objects allow you to mimic the behaviour of classes and interfaces, letting you code the in the test interact with them as if they were real.
+
+In my code, I created a separate folder, repositories and interfaces and created objects that would mock my previous work. I then carried out tests (using test explorer) to see if my code was doing what it was supposed to. I tested all the features I had created, so add, delete, update. As you can see below 7 tests passed yet my coverage report shows a 37.5% line coverage. Red means these lines could run but are never executed.
+
+Reasonings:
+* The fact that the update button no longer works means the update section on the code coverage tests were not executed.
+* Additionally, the add function of décor details I did inside the eventtypes controller, therefore the way I performed the test had to be different to how I did the tests for eventtypes tests because I now need to pass in the eventtype controller variable
+* Another reason I have a lower test coverage is because I am testing files that should be ignored. I am testing for example the dbContext which could be ignored and as a whole this could be reducing my overall coverage percentage.
+
+
+
+![Screenshot (134)](https://user-images.githubusercontent.com/82108067/117584411-b2a3d900-b104-11eb-836b-1b7190199b6d.png)
+
+
+![Screenshot (136)](https://user-images.githubusercontent.com/82108067/117584485-3362d500-b105-11eb-8653-6ebf6328977a.png)
+
+
 ![Screenshot (102)](https://user-images.githubusercontent.com/82108067/117584519-64430a00-b105-11eb-9443-883756ccfee4.png)
 ![Screenshot (98)](https://user-images.githubusercontent.com/82108067/117584529-6ad18180-b105-11eb-878e-39987f8a7eb2.png)
 
 ![Screenshot (130)](https://user-images.githubusercontent.com/82108067/117584408-afa8e880-b104-11eb-954e-1d597f941bf0.png)
 ![Screenshot (133)](https://user-images.githubusercontent.com/82108067/117584410-b172ac00-b104-11eb-89d1-e9c4ff935dba.png)
-![Screenshot (134)](https://user-images.githubusercontent.com/82108067/117584411-b2a3d900-b104-11eb-836b-1b7190199b6d.png)
 
-
-![Screenshot (136)](https://user-images.githubusercontent.com/82108067/117584485-3362d500-b105-11eb-8653-6ebf6328977a.png)
 
 **Future improvements:**
 ---
