@@ -42,11 +42,20 @@ The application I have been creating performs the actions of the requirements, C
 
 [This is the link to my Trello Board](https://trello.com/b/ioxDkTOo/qaproject)
 
-Using a Trello board helped me visualise the process clearly and keep track of workflow against the time limit.The benefits of having a visual grid helped me see how much progress I was making. I also kept a column for hurdles/errors I overcame since I do believe its important to note down this information.
+Using a Trello board helped me visualise the process clearly and keep track of workflow against the time limit.The benefits of having a visual grid helped me see how much progress I was making. I also kept a column for hurdles/errors I overcame since I do believe its important to note down this information. Additionally, using a colour coding system helped me immensely (eg: Red was associated with urgent/I need help).
+
 <!-- Blockquote -->
 > Trello board two weeks into the project
 
 ![Screenshot (121)](https://user-images.githubusercontent.com/82108067/117577185-a3ab2f80-b0e0-11eb-947f-f10e01d1cd72.png)
+
+* Notes
+* User stories
+* To do
+* Doing
+* Done
+
+In hindsight, I'm glad I took a simple approach - I was able to assign the tasks into the right column quicker and having less clutter on the Trello Board made it slightly less overwhelming. 
 
 **Entity Relationship Diagram (ERD):**
 ---
