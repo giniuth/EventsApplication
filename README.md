@@ -78,11 +78,11 @@ In hindsight, I'm glad I took a simple approach - I was able to assign the tasks
 
 *Mock testing (MOQ Framework)*
  
-Moq is a mocking framework for C# .NET. it is used in unit testing to isolate a class under test from its dependencies and ensure that the proper methods on the dependent objects are being called. Mock objects allow you to mimic the behaviour of classes and interfaces, letting you code the in the test interact with them as if they were real.
+Moq is a mocking framework for C# .NET. It is used in **unit testing** to isolate a class under test from its dependencies and ensure that the proper methods on the dependent objects are being called. Mock objects allow you to mimic the behaviour of classes and interfaces, letting you code the in the test interact with them as if they were real.
 
 In my code, I created a separate folder, repositories and interfaces and created objects that would mock my previous work. I then carried out tests (using test explorer) to see if my code was doing what it was supposed to. I tested all the features I had created, so add, delete, update. As you can see below 7 tests passed yet my coverage report shows a 37.5% line coverage. Red means these lines could run but are never executed.
 
-Reasonings:
+*Reasonings:*
 * The fact that the update button no longer works means the update section on the code coverage tests were not executed.
 * Additionally, the add function of décor details I did inside the eventtypes controller, therefore the way I performed the test had to be different to how I did the tests for eventtypes tests because I now need to pass in the eventtype controller variable
 * Another reason I have a lower test coverage is because I am testing files that should be ignored. I am testing for example the dbContext which could be ignored and as a whole this could be reducing my overall coverage percentage.
