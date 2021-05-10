@@ -108,14 +108,16 @@ I deployed my Web Application through Azure manually (using publish profile thro
 ![Screenshot (130)](https://user-images.githubusercontent.com/82108067/117584408-afa8e880-b104-11eb-954e-1d597f941bf0.png)
 ![Screenshot (133)](https://user-images.githubusercontent.com/82108067/117584410-b172ac00-b104-11eb-89d1-e9c4ff935dba.png)
 
+Known issues:
+---
+* Users are unable to edit currently at this point in time
+* Users can currently add more than one decor detail therefore I would need to change the code to make it that only one event has one corresponding decordetail
 
 **Future improvements:**
 ---
 
-
 * I would like to add the '£' sign when adding the budget, even though this company is UK based - it would make the website more credible
 * Users might want to add more than one inspo picture, therefore a strategy for this could be implemented
-* Users can currently add more than one decor detail therefore I would need to change the code to make it that only one event has one corresponding decordetail
 * For the future, contact details and a log in system would be necessary
 * There could also be more pictures uploaded from previous events that would help attract more customers and it would be a place for us to showcase our previous work
 
