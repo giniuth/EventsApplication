@@ -95,6 +95,9 @@ In my code, I created a separate folder, repositories and interfaces and created
 
 ![Screenshot (136)](https://user-images.githubusercontent.com/82108067/117584485-3362d500-b105-11eb-8653-6ebf6328977a.png)
 
+![Screenshot (139)](https://user-images.githubusercontent.com/82108067/117618328-abf97e00-b165-11eb-816c-087a8118c52f.png)
+
+
 **Deployment**
 ---
 I deployed my Web Application through Azure manually (using publish profile through azure app service) after facing many difficulties with the CI/CD approach.
