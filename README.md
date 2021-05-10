@@ -1,5 +1,6 @@
 # **EventsApplication**
 # CRUD PROJECT
+http://eventswebapp.azurewebsites.net/
 
 The application I have been creating performs the actions of the requirements, Create, Read, Update and Delete (CRUD). As a small introduction to my application, users will be able to first specify the type of event they would like to host alongside their budget and additionally display an image so the decoration company can help tailor to their requests. Users will then be required to fill in additonal information including the option to have catering provided and a space for them to give us a detailed description into the services they require.
 
