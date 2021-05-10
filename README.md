@@ -36,6 +36,8 @@ The application I have been creating performs the actions of the requirements, C
 
 * Users at this point can add a description or give us further details that will help the event company when it comes to planning their specific event.
 
+**Project Tracking**
+---
 
 
 [This is the link to my Trello Board](https://trello.com/b/ioxDkTOo/qaproject)
