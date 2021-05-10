@@ -101,11 +101,13 @@ The routing constraint"{id:int}" tells the page to accept requests to the page t
 
 **Deployment**
 ---
-I deployed my Web Application through Azure manually (using publish profile through azure app service) after facing many difficulties with the CI/CD approach.
+I deployed my Web Application through Azure manually (using publish profile through azure app service) after facing many difficulties with the CI/CD approach. Azure's App Service hosts web applications, REST APIs and mobile back ends. These applications can be made in many languages, are scalable and run with ease. They support both Windows and Linux environments. It allows you to deploy any of your apps, in the way you prefer to do so.
+
 
 ![Screenshot (102)](https://user-images.githubusercontent.com/82108067/117584519-64430a00-b105-11eb-9443-883756ccfee4.png)
 
 ![Screenshot (130)](https://user-images.githubusercontent.com/82108067/117584408-afa8e880-b104-11eb-954e-1d597f941bf0.png)
+
 ![Screenshot (133)](https://user-images.githubusercontent.com/82108067/117584410-b172ac00-b104-11eb-89d1-e9c4ff935dba.png)
 
 Known issues:
