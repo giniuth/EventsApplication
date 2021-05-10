@@ -6,10 +6,12 @@ The application I have been creating performs the actions of the requirements, C
 <!-- Blockquote -->
 > Here are a few images of the website:
 
-![Screenshot (108)](https://user-images.githubusercontent.com/82108067/117570831-e14d8f80-b0c3-11eb-8aa4-f1ed9167e109.png)![Screenshot (115)](https://user-images.githubusercontent.com/82108067/117570801-caa73880-b0c3-11eb-996a-a91992196fc0.png)
+![Screenshot (108)](https://user-images.githubusercontent.com/82108067/117570831-e14d8f80-b0c3-11eb-8aa4-f1ed9167e109.png)
+
+![Screenshot (115)](https://user-images.githubusercontent.com/82108067/117570801-caa73880-b0c3-11eb-996a-a91992196fc0.png)
 
 
-![Screenshot (116)](https://user-images.githubusercontent.com/82108067/117571141-0e4e7200-b0c5-11eb-9da0-9c267f391a18.png)
+![Screenshot (137)](https://user-images.githubusercontent.com/82108067/117615650-ebbe6680-b161-11eb-8459-a905e75058a8.png)
 
 
 ![Screenshot (117)](https://user-images.githubusercontent.com/82108067/117571148-19090700-b0c5-11eb-9a16-3e0663667aa7.png)
