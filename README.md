@@ -97,6 +97,7 @@ In my code, I created a separate folder, repositories and interfaces and created
 
 ![Screenshot (139)](https://user-images.githubusercontent.com/82108067/117618328-abf97e00-b165-11eb-816c-087a8118c52f.png)
 
+The routing constraint"{id:int}" tells the page to accept requests to the page that contain int route data. If a request to the page doesn't contain route data that can be converted to an int , the runtime returns an HTTP 404 (not found) error.
 
 **Deployment**
 ---
